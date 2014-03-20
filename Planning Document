@@ -1,0 +1,15 @@
+Phase 1
+Team List Activity with team selection and addition
+When a team number is selected, a new Activity opens with pre-scouting
+Data stored with CSV
+
+Phase 2
+Have FRC Event selection Activity
+Automatically list all teams and matches (data pulled from FRC website) similar to FRC Spyder
+Match information Activity
+Activity to put in information for each team in each match
+Data stored with CSV
+
+Phase 3
+SQL behind the scenes **need to talk to Andy about this
+
