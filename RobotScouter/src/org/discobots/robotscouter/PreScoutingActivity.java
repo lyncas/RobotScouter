@@ -8,7 +8,8 @@ import android.view.Menu;
 
 public class PreScoutingActivity extends Activity {
 	
-	public static final String ROBOT_DATA = "PRESCOUTINGACTIVITY_ROBOTDATA_546874321684";
+	public static final String ROBOT_DATA = "ROBOT";
+	private Robot robot;
 	
 	public PreScoutingActivity() {
 	}
@@ -17,6 +18,11 @@ public class PreScoutingActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
         setContentView(R.layout.activty_prescouting);
+        
+        this.robot = (Robot) this.getIntent().getSerializableExtra(ROBOT_DATA);
+        
+        
+        
 	}
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -1,7 +1,6 @@
 package org.discobots.robotscouter;
 
 import java.util.ArrayList;
-import java.util.logging.Logger;
 
 import org.discobots.robotscouter.R;
 import org.discobots.robotscouter.data.Robot;
