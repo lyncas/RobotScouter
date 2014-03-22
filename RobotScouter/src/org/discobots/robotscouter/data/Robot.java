@@ -220,7 +220,9 @@ public class Robot implements Serializable {
 
 	private void writeObject(ObjectOutputStream out) throws IOException {
 		out.write(teamNumber);
-		out.writeChars(teamName);
+		if (this.teamName != null) {
+			out.writeChars(teamName);
+		}
 	}
 
 	private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
