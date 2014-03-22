@@ -9,7 +9,7 @@
         android:orderInCategory="100"
         android:showAsAction="always"
         android:title="@string/add_team"
-        android:visible="true">
+        android:visible="true" android:titleCondensed="@string/add_team_condensed">
     </item>
 
 </menu>
