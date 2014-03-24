@@ -82,7 +82,7 @@ public class Robot implements Serializable {
 		this.robotBumperQuality = robotBumperQuality;
 	}
 
-	public boolean setRobotIntakeGround() {
+	public boolean getRobotIntakeGround() {
 		return robotIntakeGround;
 	}
 
@@ -90,7 +90,7 @@ public class Robot implements Serializable {
 		this.robotIntakeGround = robotIntakeGround;
 	}
 
-	public boolean setRobotCatch() {
+	public boolean getRobotCatch() {
 		return robotCatch;
 	}
 
@@ -98,7 +98,7 @@ public class Robot implements Serializable {
 		this.robotCatch = robotCatch;
 	}
 
-	public boolean setRobotOuttakeGround() {
+	public boolean getRobotOuttakeGround() {
 		return robotOuttakeGround;
 	}
 
@@ -106,7 +106,7 @@ public class Robot implements Serializable {
 		this.robotOuttakeGround = robotOuttakeGround;
 	}
 
-	public boolean setRobotLaunch() {
+	public boolean getRobotLaunch() {
 		return robotLaunch;
 	}
 
@@ -114,7 +114,7 @@ public class Robot implements Serializable {
 		this.robotLaunch = robotLaunch;
 	}
 
-	public boolean setAutonMobility() {
+	public boolean getAutonMobility() {
 		return autonMobility;
 	}
 
@@ -122,7 +122,7 @@ public class Robot implements Serializable {
 		this.autonMobility = autonMobility;
 	}
 
-	public boolean setAutonOneBall() {
+	public boolean getAutonOneBall() {
 		return autonOneBall;
 	}
 
@@ -130,7 +130,7 @@ public class Robot implements Serializable {
 		this.autonOneBall = autonOneBall;
 	}
 
-	public boolean setAutonTwoBall() {
+	public boolean getAutonTwoBall() {
 		return autonTwoBall;
 	}
 
@@ -138,7 +138,7 @@ public class Robot implements Serializable {
 		this.autonTwoBall = autonTwoBall;
 	}
 
-	public boolean setAutonThreeBall() {
+	public boolean getAutonThreeBall() {
 		return autonThreeBall;
 	}
 
@@ -154,7 +154,7 @@ public class Robot implements Serializable {
 		this.autonPointsScorable = autonPointsScorable;
 	}
 
-	public boolean setAutonVsetion() {
+	public boolean getAutonVsetion() {
 		return autonVsetion;
 	}
 
@@ -170,7 +170,7 @@ public class Robot implements Serializable {
 		this.autonLocation = autonLocation;
 	}
 
-	public boolean setTeleopOffensive() {
+	public boolean getTeleopOffensive() {
 		return teleopOffensive;
 	}
 
@@ -178,7 +178,7 @@ public class Robot implements Serializable {
 		this.teleopOffensive = teleopOffensive;
 	}
 
-	public boolean setTeleopDefensive() {
+	public boolean getTeleopDefensive() {
 		return teleopDefensive;
 	}
 
@@ -186,7 +186,7 @@ public class Robot implements Serializable {
 		this.teleopDefensive = teleopDefensive;
 	}
 
-	public boolean setTeleopBlockHighGoal() {
+	public boolean getTeleopBlockHighGoal() {
 		return teleopBlockHighGoal;
 	}
 
@@ -194,7 +194,7 @@ public class Robot implements Serializable {
 		this.teleopBlockHighGoal = teleopBlockHighGoal;
 	}
 
-	public boolean setTeleopBlockLowGoal() {
+	public boolean getTeleopBlockLowGoal() {
 		return teleopBlockLowGoal;
 	}
 
@@ -202,7 +202,7 @@ public class Robot implements Serializable {
 		this.teleopBlockLowGoal = teleopBlockLowGoal;
 	}
 
-	public boolean setTeleopPushRobots() {
+	public boolean getTeleopPushRobots() {
 		return teleopPushRobots;
 	}
 
